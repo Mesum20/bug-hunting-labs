@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Posts</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>Your Posts</h2>
+    <ul>
+        {% for post in posts %}
+            <li><a href="{{ url_for('view_post', post_id=post.id) }}">{{ post.content }} (ID: {{ post.id }})</a></li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('upload_post') }}">Upload More Posts</a>
+    <a href="{{ url_for('logout') }}">Logout</a>
+</body>
+</html>
