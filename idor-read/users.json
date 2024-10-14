@@ -1,0 +1,35 @@
+{
+    "admin": {
+        "password": "adminpassword",
+        "id": "930f06f1-fd32-4d06-aeb3-153ea00ceb59",
+        "posts": [
+            {
+                "id": "9e887eae-7228-4361-b4c5-756bf7851025",
+                "content": "flag{d1rect_0bject_r3f3r3nc3_r34d_4ll}"
+            }
+        ]
+    },
+    "user": {
+        "password": "userpassword",
+        "id": "b32d785d-935e-4fe6-a4d1-9049d36fa7d9",
+        "posts": []
+    },
+    "mesum": {
+        "password": "mesum",
+        "id": "13ac16d5-48a7-47cc-bdb2-1f945b30151f",
+        "posts": [
+            {
+                "id": "6bfa6e44-7625-495a-80ab-a2d3f3d0a885",
+                "content": "heeloo"
+            },
+            {
+                "id": "0e73df61-b8e7-4204-af91-38301213fa4e",
+                "content": "gg"
+            },
+            {
+                "id": "e739678b-d57a-4c79-bde6-4fac06e05f5e",
+                "content": "g"
+            }
+        ]
+    }
+}
