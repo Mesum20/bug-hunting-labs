@@ -1,0 +1,36 @@
+/* Example styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 1em;
+}
+
+input {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 0.5em;
+}
+
+button {
+    padding: 0.5em;
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.5em;
+    color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    text-align: center;
+}
+
